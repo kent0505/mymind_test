@@ -116,7 +116,6 @@ class _GamePageState extends State<GamePage> {
             fit: BoxFit.cover,
             height: double.infinity,
             width: double.infinity,
-            // alignment: Alignment.centerLeft,
           ),
           Column(
             children: [

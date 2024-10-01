@@ -4,29 +4,6 @@ import 'package:flutter/material.dart';
 
 import 'models/card_model.dart';
 
-double getStatusBar(BuildContext context) {
-  return MediaQuery.of(context).viewPadding.top;
-}
-
-double getBottom(BuildContext context) {
-  return MediaQuery.of(context).viewPadding.bottom;
-}
-
-double getWidth(BuildContext context) {
-  return MediaQuery.of(context).size.width;
-}
-
-double getHeight(BuildContext context) {
-  return MediaQuery.of(context).size.height;
-}
-
-bool getButtonActive(List<TextEditingController> controllers) {
-  for (TextEditingController controller in controllers) {
-    if (controller.text.isEmpty) return false;
-  }
-  return true;
-}
-
 void logger(Object message) {
   try {
     developer.log(message.toString());
