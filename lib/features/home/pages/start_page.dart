@@ -31,6 +31,20 @@ class _StartPageState extends State<StartPage> {
 
   @override
   Widget build(BuildContext context) {
+    precacheImage(const AssetImage('assets/level/l1.png'), context);
+    precacheImage(const AssetImage('assets/level/l2.png'), context);
+    precacheImage(const AssetImage('assets/level/l3.png'), context);
+    precacheImage(const AssetImage('assets/level/l4.png'), context);
+    precacheImage(const AssetImage('assets/level/l5.png'), context);
+    precacheImage(const AssetImage('assets/level/l6.png'), context);
+    precacheImage(const AssetImage('assets/level/l7.png'), context);
+    precacheImage(const AssetImage('assets/level/l8.png'), context);
+    precacheImage(const AssetImage('assets/level/l9.png'), context);
+    precacheImage(const AssetImage('assets/level/l10.png'), context);
+    precacheImage(const AssetImage('assets/level/l11.png'), context);
+    precacheImage(const AssetImage('assets/level/l12.png'), context);
+    precacheImage(const AssetImage('assets/level/l13.png'), context);
+    precacheImage(const AssetImage('assets/level/l14.png'), context);
     return Scaffold(
       body: Stack(
         children: [
