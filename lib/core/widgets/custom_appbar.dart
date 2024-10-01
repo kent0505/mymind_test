@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
-import 'package:mymind_test/core/widgets/texts/text_r.dart';
 
 import 'buttons/cuper_button.dart';
+import 'texts/text_r.dart';
 
 class CustomAppbar extends StatelessWidget {
   const CustomAppbar({

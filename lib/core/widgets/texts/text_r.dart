@@ -7,7 +7,7 @@ class TextR extends StatelessWidget {
     this.title, {
     super.key,
     required this.fontSize,
-    this.color = AppColors.white,
+    this.color = Colors.white,
     this.textAlign,
     this.maxLines,
   });
@@ -39,7 +39,7 @@ class TextM extends StatelessWidget {
     this.title, {
     super.key,
     required this.fontSize,
-    this.color = AppColors.white,
+    this.color = Colors.white,
     this.textAlign,
     this.maxLines,
   });
@@ -71,7 +71,7 @@ class TextB extends StatelessWidget {
     this.title, {
     super.key,
     required this.fontSize,
-    this.color = AppColors.white,
+    this.color = Colors.white,
     this.textAlign,
     this.maxLines,
   });
